@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280E902EDF83BF7B22C50310 /* Pods_OfficeHourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC1EC385F8460EE9E4B7C28 /* Pods_OfficeHourTests.framework */; };
+		4C7D3B401FDB1328CF00E375 /* Pods_OfficeHour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DE7952F710C539CA4DC374 /* Pods_OfficeHour.framework */; };
+		C9C70524A99EC6AE6AB5C71C /* Pods_OfficeHour_OfficeHourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905A811E1264CACC333D3043 /* Pods_OfficeHour_OfficeHourUITests.framework */; };
+		DC468A1E282513970077A807 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC468A1D282513970077A807 /* UserData.swift */; };
+		DC468A202825A7D40077A807 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC468A1F2825A7D40077A807 /* LoginViewController.swift */; };
+		DC468A222825ACE90077A807 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC468A212825ACE90077A807 /* Login.swift */; };
 		DC57DF1D281EEDDC000A9ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF1C281EEDDC000A9ED2 /* AppDelegate.swift */; };
 		DC57DF1F281EEDDC000A9ED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF1E281EEDDC000A9ED2 /* SceneDelegate.swift */; };
-		DC57DF21281EEDDC000A9ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF20281EEDDC000A9ED2 /* ViewController.swift */; };
 		DC57DF24281EEDDC000A9ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC57DF22281EEDDC000A9ED2 /* Main.storyboard */; };
 		DC57DF26281EEDDD000A9ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC57DF25281EEDDD000A9ED2 /* Assets.xcassets */; };
 		DC57DF29281EEDDD000A9ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC57DF27281EEDDD000A9ED2 /* LaunchScreen.storyboard */; };
 		DC57DF34281EEDDD000A9ED2 /* OfficeHourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF33281EEDDD000A9ED2 /* OfficeHourTests.swift */; };
 		DC57DF3E281EEDDD000A9ED2 /* OfficeHourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF3D281EEDDD000A9ED2 /* OfficeHourUITests.swift */; };
 		DC57DF40281EEDDD000A9ED2 /* OfficeHourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF3F281EEDDD000A9ED2 /* OfficeHourUITestsLaunchTests.swift */; };
+		DC57DF4D281F0909000A9ED2 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF4C281F0909000A9ED2 /* CourseViewController.swift */; };
+		DC57DF51281F0C73000A9ED2 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF50281F0C73000A9ED2 /* TabBarViewController.swift */; };
+		DC57DF53281F100D000A9ED2 /* CourseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF52281F100D000A9ED2 /* CourseMenuViewController.swift */; };
+		DC57DF55281F10B9000A9ED2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF54281F10B9000A9ED2 /* ProfileViewController.swift */; };
+		DC57DF57281F3C4B000A9ED2 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF56281F3C4B000A9ED2 /* RequestsViewController.swift */; };
+		DC57DF59281F3E0F000A9ED2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF58281F3E0F000A9ED2 /* Person.swift */; };
+		DC57DF5B281F3F10000A9ED2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF5A281F3F10000A9ED2 /* Request.swift */; };
+		DC57DF5D281F3FC0000A9ED2 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF5C281F3FC0000A9ED2 /* CardCollectionViewCell.swift */; };
+		DC57DF61282468CE000A9ED2 /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF60282468CE000A9ED2 /* RequestsTableViewCell.swift */; };
+		DC57DF6328248975000A9ED2 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF6228248975000A9ED2 /* Subject.swift */; };
+		DC57DF6528248B82000A9ED2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57DF6428248B82000A9ED2 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1046FB7346269F6B8A06168B /* Pods-OfficeHour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeHour.debug.xcconfig"; path = "Target Support Files/Pods-OfficeHour/Pods-OfficeHour.debug.xcconfig"; sourceTree = "<group>"; };
+		126D33770FE8851BDA14BFA6 /* Pods-OfficeHour-OfficeHourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeHour-OfficeHourUITests.release.xcconfig"; path = "Target Support Files/Pods-OfficeHour-OfficeHourUITests/Pods-OfficeHour-OfficeHourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C9167AB8E690679B547727C /* Pods-OfficeHourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeHourTests.release.xcconfig"; path = "Target Support Files/Pods-OfficeHourTests/Pods-OfficeHourTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F64BC6532562ABCD5BC810D /* Pods-OfficeHourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeHourTests.debug.xcconfig"; path = "Target Support Files/Pods-OfficeHourTests/Pods-OfficeHourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CC1EC385F8460EE9E4B7C28 /* Pods_OfficeHourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfficeHourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905A811E1264CACC333D3043 /* Pods_OfficeHour_OfficeHourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfficeHour_OfficeHourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DE7952F710C539CA4DC374 /* Pods_OfficeHour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfficeHour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F06A6C508293E39078F154 /* Pods-OfficeHour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeHour.release.xcconfig"; path = "Target Support Files/Pods-OfficeHour/Pods-OfficeHour.release.xcconfig"; sourceTree = "<group>"; };
+		DC468A1D282513970077A807 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		DC468A1F2825A7D40077A807 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC468A212825ACE90077A807 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		DC57DF19281EEDDC000A9ED2 /* OfficeHour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeHour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC57DF1C281EEDDC000A9ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC57DF1E281EEDDC000A9ED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC57DF20281EEDDC000A9ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC57DF23281EEDDC000A9ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC57DF25281EEDDD000A9ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC57DF28281EEDDD000A9ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,18 @@
 		DC57DF39281EEDDD000A9ED2 /* OfficeHourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfficeHourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC57DF3D281EEDDD000A9ED2 /* OfficeHourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeHourUITests.swift; sourceTree = "<group>"; };
 		DC57DF3F281EEDDD000A9ED2 /* OfficeHourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeHourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC57DF4C281F0909000A9ED2 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		DC57DF50281F0C73000A9ED2 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DC57DF52281F100D000A9ED2 /* CourseMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMenuViewController.swift; sourceTree = "<group>"; };
+		DC57DF54281F10B9000A9ED2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DC57DF56281F3C4B000A9ED2 /* RequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		DC57DF58281F3E0F000A9ED2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DC57DF5A281F3F10000A9ED2 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		DC57DF5C281F3FC0000A9ED2 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC57DF60282468CE000A9ED2 /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
+		DC57DF6228248975000A9ED2 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		DC57DF6428248B82000A9ED2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F3C192E45D2F081766B96993 /* Pods-OfficeHour-OfficeHourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeHour-OfficeHourUITests.debug.xcconfig"; path = "Target Support Files/Pods-OfficeHour-OfficeHourUITests/Pods-OfficeHour-OfficeHourUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7D3B401FDB1328CF00E375 /* Pods_OfficeHour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280E902EDF83BF7B22C50310 /* Pods_OfficeHourTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C70524A99EC6AE6AB5C71C /* Pods_OfficeHour_OfficeHourUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69F3FC4E951263DBC165D33A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1046FB7346269F6B8A06168B /* Pods-OfficeHour.debug.xcconfig */,
+				C0F06A6C508293E39078F154 /* Pods-OfficeHour.release.xcconfig */,
+				F3C192E45D2F081766B96993 /* Pods-OfficeHour-OfficeHourUITests.debug.xcconfig */,
+				126D33770FE8851BDA14BFA6 /* Pods-OfficeHour-OfficeHourUITests.release.xcconfig */,
+				2F64BC6532562ABCD5BC810D /* Pods-OfficeHourTests.debug.xcconfig */,
+				1C9167AB8E690679B547727C /* Pods-OfficeHourTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFFFA15679EF8837A6B6FC60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE7952F710C539CA4DC374 /* Pods_OfficeHour.framework */,
+				905A811E1264CACC333D3043 /* Pods_OfficeHour_OfficeHourUITests.framework */,
+				6CC1EC385F8460EE9E4B7C28 /* Pods_OfficeHourTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC57DF10281EEDDC000A9ED2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +147,8 @@
 				DC57DF32281EEDDD000A9ED2 /* OfficeHourTests */,
 				DC57DF3C281EEDDD000A9ED2 /* OfficeHourUITests */,
 				DC57DF1A281EEDDC000A9ED2 /* Products */,
+				69F3FC4E951263DBC165D33A /* Pods */,
+				BFFFA15679EF8837A6B6FC60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +167,24 @@
 			children = (
 				DC57DF1C281EEDDC000A9ED2 /* AppDelegate.swift */,
 				DC57DF1E281EEDDC000A9ED2 /* SceneDelegate.swift */,
-				DC57DF20281EEDDC000A9ED2 /* ViewController.swift */,
+				DC468A1F2825A7D40077A807 /* LoginViewController.swift */,
+				DC57DF50281F0C73000A9ED2 /* TabBarViewController.swift */,
+				DC57DF56281F3C4B000A9ED2 /* RequestsViewController.swift */,
+				DC57DF60282468CE000A9ED2 /* RequestsTableViewCell.swift */,
+				DC57DF52281F100D000A9ED2 /* CourseMenuViewController.swift */,
+				DC57DF4C281F0909000A9ED2 /* CourseViewController.swift */,
+				DC57DF5C281F3FC0000A9ED2 /* CardCollectionViewCell.swift */,
+				DC57DF54281F10B9000A9ED2 /* ProfileViewController.swift */,
+				DC57DF6428248B82000A9ED2 /* NetworkManager.swift */,
 				DC57DF22281EEDDC000A9ED2 /* Main.storyboard */,
 				DC57DF25281EEDDD000A9ED2 /* Assets.xcassets */,
 				DC57DF27281EEDDD000A9ED2 /* LaunchScreen.storyboard */,
 				DC57DF2A281EEDDD000A9ED2 /* Info.plist */,
+				DC57DF58281F3E0F000A9ED2 /* Person.swift */,
+				DC57DF5A281F3F10000A9ED2 /* Request.swift */,
+				DC57DF6228248975000A9ED2 /* Subject.swift */,
+				DC468A212825ACE90077A807 /* Login.swift */,
+				DC468A1D282513970077A807 /* UserData.swift */,
 			);
 			path = OfficeHour;
 			sourceTree = "<group>";
@@ -134,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC57DF43281EEDDD000A9ED2 /* Build configuration list for PBXNativeTarget "OfficeHour" */;
 			buildPhases = (
+				FCAB58696417C18BCF0882CC /* [CP] Check Pods Manifest.lock */,
 				DC57DF15281EEDDC000A9ED2 /* Sources */,
 				DC57DF16281EEDDC000A9ED2 /* Frameworks */,
 				DC57DF17281EEDDC000A9ED2 /* Resources */,
+				F61829102A60EF56C5622E5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC57DF46281EEDDD000A9ED2 /* Build configuration list for PBXNativeTarget "OfficeHourTests" */;
 			buildPhases = (
+				C241D9D736DD3D1ED7BE942A /* [CP] Check Pods Manifest.lock */,
 				DC57DF2B281EEDDD000A9ED2 /* Sources */,
 				DC57DF2C281EEDDD000A9ED2 /* Frameworks */,
 				DC57DF2D281EEDDD000A9ED2 /* Resources */,
@@ -169,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC57DF49281EEDDD000A9ED2 /* Build configuration list for PBXNativeTarget "OfficeHourUITests" */;
 			buildPhases = (
+				9DC83EB4C4B63DD9711E68D4 /* [CP] Check Pods Manifest.lock */,
 				DC57DF35281EEDDD000A9ED2 /* Sources */,
 				DC57DF36281EEDDD000A9ED2 /* Frameworks */,
 				DC57DF37281EEDDD000A9ED2 /* Resources */,
+				AF4AD14D1392E57AA6B72CCD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +337,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DC83EB4C4B63DD9711E68D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfficeHour-OfficeHourUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4AD14D1392E57AA6B72CCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OfficeHour-OfficeHourUITests/Pods-OfficeHour-OfficeHourUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OfficeHour-OfficeHourUITests/Pods-OfficeHour-OfficeHourUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OfficeHour-OfficeHourUITests/Pods-OfficeHour-OfficeHourUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C241D9D736DD3D1ED7BE942A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfficeHourTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F61829102A60EF56C5622E5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OfficeHour/Pods-OfficeHour-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OfficeHour/Pods-OfficeHour-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OfficeHour/Pods-OfficeHour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCAB58696417C18BCF0882CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfficeHour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC57DF15281EEDDC000A9ED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC57DF21281EEDDC000A9ED2 /* ViewController.swift in Sources */,
+				DC57DF57281F3C4B000A9ED2 /* RequestsViewController.swift in Sources */,
+				DC57DF55281F10B9000A9ED2 /* ProfileViewController.swift in Sources */,
+				DC468A1E282513970077A807 /* UserData.swift in Sources */,
+				DC468A202825A7D40077A807 /* LoginViewController.swift in Sources */,
+				DC57DF53281F100D000A9ED2 /* CourseMenuViewController.swift in Sources */,
+				DC57DF6528248B82000A9ED2 /* NetworkManager.swift in Sources */,
+				DC57DF4D281F0909000A9ED2 /* CourseViewController.swift in Sources */,
+				DC57DF6328248975000A9ED2 /* Subject.swift in Sources */,
 				DC57DF1D281EEDDC000A9ED2 /* AppDelegate.swift in Sources */,
+				DC57DF51281F0C73000A9ED2 /* TabBarViewController.swift in Sources */,
+				DC57DF59281F3E0F000A9ED2 /* Person.swift in Sources */,
 				DC57DF1F281EEDDC000A9ED2 /* SceneDelegate.swift in Sources */,
+				DC57DF61282468CE000A9ED2 /* RequestsTableViewCell.swift in Sources */,
+				DC57DF5D281F3FC0000A9ED2 /* CardCollectionViewCell.swift in Sources */,
+				DC57DF5B281F3F10000A9ED2 /* Request.swift in Sources */,
+				DC468A222825ACE90077A807 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +632,7 @@
 		};
 		DC57DF44281EEDDD000A9ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1046FB7346269F6B8A06168B /* Pods-OfficeHour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +661,7 @@
 		};
 		DC57DF45281EEDDD000A9ED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F06A6C508293E39078F154 /* Pods-OfficeHour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +690,7 @@
 		};
 		DC57DF47281EEDDD000A9ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F64BC6532562ABCD5BC810D /* Pods-OfficeHourTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +711,7 @@
 		};
 		DC57DF48281EEDDD000A9ED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9167AB8E690679B547727C /* Pods-OfficeHourTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +732,7 @@
 		};
 		DC57DF4A281EEDDD000A9ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C192E45D2F081766B96993 /* Pods-OfficeHour-OfficeHourUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +751,7 @@
 		};
 		DC57DF4B281EEDDD000A9ED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126D33770FE8851BDA14BFA6 /* Pods-OfficeHour-OfficeHourUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
